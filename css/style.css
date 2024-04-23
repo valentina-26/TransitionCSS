@@ -1,0 +1,160 @@
+body {
+    background-image: url('../storage/fondo.png');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment:fixed; 
+}
+
+
+.sol img{
+    width: 150px;
+    height: 150px;
+}
+
+.nube img{
+    width: 500px;
+    height: 200px;
+}
+
+.nube {
+    background-image: no-repeat url("../storage/nube-removebg-preview.png");
+    position: absolute;
+    right: 0;
+    top: 4%;
+
+    animation-name: nube;
+    animation-duration: 6.5s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    opacity: 0;
+    z-index: 2;
+   
+}
+
+@keyframes nube {
+    0% {
+        right: 0;
+        opacity: 100%;
+    }
+
+    50% {
+        right: 750px;
+        opacity: 100%;
+    }
+
+    75% {
+        left: 800px;
+        opacity: 100%;
+    }
+
+    100% {
+        left: 0;
+        opacity: 100%;
+    }
+}
+
+
+
+.gif {
+    background-image: url("/storage/gotas.gif");
+    width: 312px;
+    height: 321px;
+    position: fixed;
+
+    animation-name: lluvia;
+    animation-duration: 0.5s;
+    animation-delay: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    opacity: 0;
+}
+
+@keyframes lluvia {
+    0% {
+        right: 880px; 
+        left: 800px;
+        top: 20%;
+    }
+
+    100% {
+        right: 940px; 
+        top: 90%;
+        opacity: 100%;
+    }
+}
+
+
+
+
+.flor {
+    background: no-repeat url("/storage/flor-removebg-preview.png");
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    bottom: 0;
+    left: 800px;
+
+    opacity: 0;
+    animation-name: flor;
+    animation-duration: 2s;
+    animation-delay: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes flor {
+    0% {
+        opacity: 100%;
+        top: 1000px;
+    }
+
+    50% {
+        opacity: 100%;
+        top: 500px;
+    }
+
+    100% {
+        opacity: 100%;
+        bottom: 40px;
+    }
+}
+
+#mensaje {
+    background: no-repeat url("/imgs/message.png");
+    width: 700px;
+    height: 200px;
+    position: fixed;
+    top: 400px;
+    left: 35%;
+
+    opacity: 0%;
+    animation-name: mensaje;
+    animation-duration: 5s;
+    animation-delay: 11s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes mensaje {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+        opacity: 0%;
+    }
+}
+
+

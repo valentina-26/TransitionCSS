@@ -125,7 +125,7 @@ body {
     }
 }
 
-.mensaje {
+#mensaje {
     background: no-repeat url("/imgs/message.png");
     width: 700px;
     height: 200px;

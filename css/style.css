@@ -58,7 +58,7 @@ body {
 
 
 .gif {
-    background-image: url("storage/gotas.gif");
+    background-image: url("../storage/gotas.gif");
     width: 312px;
     height: 321px;
     position: fixed;

@@ -1,5 +1,5 @@
 body {
-    background-image: url('../storage/fondo.png');
+    background-image: url('storage/fondo.png');
     background-size: cover; 
     background-position: center; 
     background-attachment:fixed; 
@@ -17,7 +17,7 @@ body {
 }
 
 .nube {
-    background-image: no-repeat url("../storage/nube-removebg-preview.png");
+    background-image: no-repeat url("storage/nube-removebg-preview.png");
     position: absolute;
     right: 0;
     top: 4%;
@@ -58,7 +58,7 @@ body {
 
 
 .gif {
-    background-image: url("/storage/gotas.gif");
+    background-image: url("storage/gotas.gif");
     width: 312px;
     height: 321px;
     position: fixed;
@@ -91,7 +91,7 @@ body {
 
 
 .flor {
-    background: no-repeat url("/storage/flor-removebg-preview.png");
+    background: no-repeat url("storage/flor-removebg-preview.png");
     width: 500px;
     height: 500px;
     position: fixed;
@@ -126,7 +126,7 @@ body {
 }
 
 #mensaje {
-    background: no-repeat url("/imgs/message.png");
+    background: no-repeat url("imgs/message.png");
     width: 700px;
     height: 200px;
     position: fixed;
